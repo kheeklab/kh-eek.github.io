@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://sidasay.github.io
+title: My Journal
+tagline: A log of everyday life
+description: My awesome new site
+paginate: 5
