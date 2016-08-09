@@ -10,7 +10,7 @@ After long time googling for using Piwlk with NGINX at last I found the best one
 Piwik | NGINX
 
 
-server 
+```server 
    ## This is to avoid the spurious if for sub-domain name rewriting.
    listen [::]:80
    server_name www.stats.example.com
@@ -79,4 +79,4 @@ server
     # location = /50x.html {
     #       root   /var/www/nginx-default;
     
- # server
+ # server```
