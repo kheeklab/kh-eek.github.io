@@ -4,6 +4,8 @@ title: NGINX Configuration for Piwik
 layout: post
 categories: [NGINX, PIWIK]
 ---
+After long time googling for using Piwlk with NGINX at last I found the best one.
+
 ```
 server 
    ## This is to avoid the spurious if for sub-domain name rewriting.
