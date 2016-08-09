@@ -6,6 +6,8 @@ categories: [NGINX, PIWIK]
 ---
 After long time googling for using Piwlk with NGINX at last I found the best one.
 
+This configuration file was provided by Seph. You can see the complete information [here] (https://github.com/perusio/piwik-nginx).
+
 ```
 server 
    ## This is to avoid the spurious if for sub-domain name rewriting.
