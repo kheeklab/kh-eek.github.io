@@ -38,4 +38,4 @@ After it comes back do:
 
 ```resize2fs /dev/xvda1``` (the name of your partition, not the block device)
 
-And finally verify the new disk size:  df -h
+And finally verify the new disk size:  ```df -h```
