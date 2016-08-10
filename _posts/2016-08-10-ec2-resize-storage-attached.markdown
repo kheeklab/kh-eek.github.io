@@ -12,5 +12,5 @@ Here' what to do:
 
 You'll see from that output what the name of the disk is of your root partition. For example, you probably see something like this: <br />
 
- ```xvde                               202:64   0   32G  0 disk``` <br />
+ ```xvde                               202:64   0   32G  0 disk```  <br />
  ```└─xvde1                            202:65   0   8G  0 part /```
