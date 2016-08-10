@@ -6,3 +6,4 @@ title: My Journal
 tagline: A log of everyday life
 description: My awesome blog with Git
 paginate: 5
+highlighter: rouge
