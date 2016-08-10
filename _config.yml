@@ -4,5 +4,5 @@ markdown: kramdown
 url: http://sidasay.github.io
 title: My Journal
 tagline: A log of everyday life
-description: My awesome new site
+description: My awesome blog with Git
 paginate: 5
