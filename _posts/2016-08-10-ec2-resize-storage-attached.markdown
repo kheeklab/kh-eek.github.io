@@ -11,5 +11,6 @@ Here' what to do:
  ```lsblk``` #show info on all your block devices
 
 You'll see from that output what the name of the disk is of your root partition. For example, you probably see something like this: 
+
  ```xvde                               202:64   0   32G  0 disk``` 
  ```└─xvde1                            202:65   0   8G  0 part /```
