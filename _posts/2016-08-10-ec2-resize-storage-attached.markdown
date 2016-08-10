@@ -27,8 +27,8 @@ Our goal is to make xvde1 use the whole available space from xvda. Here's how to
  6. ```1```  #Partition number
  7. ```2048``` #First sector
  8. Press Enter to accept the default
- 9. ```p``` #Print info
- 10 ```a``` #Toggle the bootable flag
+ 9. ```p``` #Print info 
+ 10. ```a``` #Toggle the bootable flag
  11. ```1``` #Select partition 1
  12. ```w``` #Write table to disk and exit
  
