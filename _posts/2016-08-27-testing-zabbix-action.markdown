@@ -28,7 +28,7 @@ Next create a trigger which will fire each time the value of the timestamp item 
 Use the ```diff()``` trigger function to identify a change in value. Also, ensure Multiple PROBLEM events generation is checked to ensure an event (and subsequent notification) is created every time the item value changes; not just the first time.
 
 * Name: Timestamp changed
-* Expression: ```{[host/template]:test.timestamp.diff()}>0``` (replace host/template)
+* Expression: ``` {[host/template]:test.timestamp.diff()}>0 ``` (replace host/template)
 * Multiple PROBLEM events generation: checked
 * Severity: Any (except Not classified)
 * Click Add to save
@@ -57,16 +57,16 @@ Finally, click Add to save the action.
 
 To put the trigger into a ```PROBLEM``` state, simply submit a value for your test item using ```zabbix_sender``` that is different to the previous value. The simplest way to generate a new value on each command line call is to embed a timestamp using ```$(date --rfc-3339=ns)```. Send a new value to the Zabbix server with the following (taking care to replace all argument values with the correct values for your environment):
 
-    ```$ VALUE="$(date --rfc-3339=ns)"; zabbix_sender \
+    $ VALUE="$(date --rfc-3339=ns)"; zabbix_sender \
   	    --zabbix-server=127.0.0.1 \
   	    --host="Zabbix server" \
   	    --key="test.timestamp" \
-  	    --value="${VALUE}"```
+  	    --value="${VALUE}"
 
 To put the trigger back into an ```OK ```state (and cause a ‘Recovery message’ to be sent), simply resubmit the same item value by running the ```zabbix_sender``` command again without making a change to the ```VALUE``` environment variable:
 
-    ```$ zabbix_sender \
+    $ zabbix_sender \
   	    --zabbix-server=127.0.0.1 \
   	    --host="Zabbix server" \
   	    --key="test.timestamp" \
-  	    --value="${VALUE}"```
+  	    --value="${VALUE}"
