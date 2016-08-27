@@ -1,6 +1,6 @@
 ---
 published: true
-title: EC2 resize storage attached
+title: resize disk storage size on new AWS EC2
 layout: post
 tags: [EC2, Linux]
 categories: [EC2]
