@@ -5,7 +5,7 @@ layout: post
 tags: [EC2, Linux]
 categories: [EC2]
 ---
-Here' what to do:
+Mostly when create new instance on AWS the disk size is only 8GB. Here' what to do:
 
  ```df -h``` #print the name of your boot partition <br />
  ```lsblk``` #show info on all your block devices
