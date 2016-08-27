@@ -1,6 +1,6 @@
 ---
 published: true
-title: WordPress Multi domain
+title: WordPress multi domain
 layout: post
 ---
 In wp-config.php add: 
