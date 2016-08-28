@@ -70,3 +70,6 @@ Sample output:
     3 rows in set (0.00 sec)
     
     MariaDB [(none)]>
+
+
+That's it :kh:
