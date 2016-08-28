@@ -12,6 +12,7 @@ Once you have your ```MariaDB.repo``` entry, add it to a file under ```/etc/yum.
     vim etc/yum.repos.d/MariaDB.repo
 
 Here example ```MariaDB.repo``` file for CentOS 6 is:
+
     # MariaDB 10.1 CentOS repository list - created 2016-08-28 10:35 UTC
     # http://downloads.mariadb.org/mariadb/repositories/
     [mariadb]
@@ -23,11 +24,13 @@ Here example ```MariaDB.repo``` file for CentOS 6 is:
 ### Installing MariaDB with YUM
 
 With the repo file in place you can now install MariaDB like so:
+
     sudo yum install MariaDB-server MariaDB-client
 
 ### After Installation
 
 After the installation completes, start MariaDB with:
+
    sudo /etc/init.d/mysql start
    chkconfig mysql on
 
@@ -63,4 +66,3 @@ After the installation completes, start MariaDB with:
     3 rows in set (0.00 sec)
     
     MariaDB [(none)]>
-
