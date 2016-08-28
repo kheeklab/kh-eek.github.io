@@ -72,4 +72,4 @@ Sample output:
     MariaDB [(none)]>
 
 
-That's it :kh:
+That's it :kr:
