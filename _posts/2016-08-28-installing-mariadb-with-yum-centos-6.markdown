@@ -25,7 +25,7 @@ Here example ```MariaDB.repo``` file for CentOS 6 is:
 
 With the repo file in place you can now install MariaDB like so:
 
-    sudo yum install MariaDB-server MariaDB-client
+     sudo yum install MariaDB-server MariaDB-client
 
 ### After Installation
 
