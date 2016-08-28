@@ -36,11 +36,11 @@ After the installation completes, start MariaDB with:
 
 ### Secure MariaDB after installation to
 
-– Set (Change) root password
-– Remove anonymous users
-– Disallow root login remotely
-– Remove test database and access to it
-– Reload privilege tables
+* Set (Change) root password
+* Remove anonymous users
+* Disallow root login remotely
+* Remove test database and access to it
+* Reload privilege tables
 
     mysql_secure_installation
 
