@@ -69,11 +69,13 @@ Create a file called ```java.sh``` under ```/etc/profile.d/``` directory
 
 Add the following lines:
 
-    #!/bin/bash
-    JAVA_HOME=/usr/java/jdk1.8.0_101/
-    PATH=$JAVA_HOME/bin:$PATH
-    export PATH JAVA_HOME
-    export CLASSPATH=.
+```bash
+#!/bin/bash
+JAVA_HOME=/usr/java/jdk1.8.0_101/
+PATH=$JAVA_HOME/bin:$PATH
+export PATH JAVA_HOME
+export CLASSPATH=.
+```
 
 Save and close the file. Make it executable using command:
 
