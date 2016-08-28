@@ -72,4 +72,6 @@ Sample output:
     MariaDB [(none)]>
 
 
-That's it :kr:
+That's it!
+
+:kh:
