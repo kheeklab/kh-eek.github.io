@@ -30,7 +30,7 @@ If Java 1.6 or 1.7 have been installed already, you can uninstall them:
 
 At the time I write this JDK version is JDK 8u101 change version to latest as you read this. 
 
-Go to the Oracle [Java download page] (http://www.oracle.com/technetwork/java/javase/downloads/index.html) and download the required version ( I use 64bit CentOS 6 server, I have downloaded the 64bit rpm package ) 
+Go to the Oracle [Java download page](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and download the required version ( I use 64bit CentOS 6 server, I have downloaded the 64bit rpm package ) 
 
 run the following command to install it:
 
