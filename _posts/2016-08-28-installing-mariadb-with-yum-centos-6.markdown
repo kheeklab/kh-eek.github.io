@@ -31,8 +31,8 @@ With the repo file in place you can now install MariaDB like so:
 
 After the installation completes, start MariaDB with:
 
-   sudo /etc/init.d/mysql start
-   chkconfig mysql on
+    sudo /etc/init.d/mysql start
+    chkconfig mysql on
 
 ### Secure MariaDB after installation to
 
