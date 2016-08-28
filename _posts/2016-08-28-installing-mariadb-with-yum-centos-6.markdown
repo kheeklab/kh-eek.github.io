@@ -42,12 +42,13 @@ After the installation completes, start MariaDB with:
 * Remove test database and access to it
 * Reload privilege tables
 
+run:
 
-     mysql_secure_installation
+    mysql_secure_installation
 
 ### Check the new root password and databases
 
-     mysql  -u root -p
+    mysql  -u root -p
 
 Sample output:
 
