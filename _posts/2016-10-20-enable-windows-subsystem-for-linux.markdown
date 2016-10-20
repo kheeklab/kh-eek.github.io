@@ -12,7 +12,7 @@ layout: post
 
 >To find your PC's CPU architecture and Windows version/build number, open Settings>System>About. Look for the OS Build and System Type fields.
 
-![system status](images/system.png)
+![system status](https://www.davijournal.com/images/system.png)
 
 If your build is below 14393, try checking for updates.
 
