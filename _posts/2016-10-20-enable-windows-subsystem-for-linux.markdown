@@ -28,14 +28,14 @@ In order to run Bash on Windows, you will need to manually:
 1. Open Settings -> Update and Security -> For developers
 2. Select the Developer Mode radio button
 
-![update & security](images/updateandsecurity.png)
+![update & security](https://www.davijournal.com/images/updateandsecurity.png)
 
 ### Enable the Windows Subsystem for Linux feature (GUI)
 
 1. From Start, search for "Turn Windows features on or off" (type 'turn')
 2. Select Windows Subsystem for Linux (beta)
 
-![windows feartures](images/windowsfeatures.png)
+![windows feartures](https://www.davijournal.com/images/windowsfeatures.png)
 
 3. Click OK
 
@@ -57,7 +57,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 1. Open a command prompt
 2. Run ```bash```
 
-![bash shell install](images/bashshellinstall.png) 
+![bash shell install](https://www.davijournal.com/images/bashshellinstall.png) 
 
 After you have accepted the License, the Ubuntu user-mode image will be downloaded and a "Bash on Ubuntu on Windows" shortcut will be added to your start menu.
 
@@ -70,4 +70,3 @@ After installation your Linux file system components will be located at: ```C:\U
 ### Reference 
 
 https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
-
