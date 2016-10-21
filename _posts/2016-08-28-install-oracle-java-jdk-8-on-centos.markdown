@@ -16,7 +16,7 @@ sample output:
     gobject-introspection-1.36.0-4.el7.x86_64
     pygobject3-base-3.8.2-4.el7.x86_64
 
-
+<!--more-->
 check the already installed Java version:
 
     java -version
