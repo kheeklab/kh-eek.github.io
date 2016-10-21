@@ -1,4 +1,4 @@
-excerpt_separator: ""
+excerpt_separator: <!--more-->
 pygments: true
 markdown: kramdown
 url: http://sidasay.github.io
