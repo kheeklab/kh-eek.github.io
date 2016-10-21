@@ -6,7 +6,7 @@ layout: post
 ### Adding the MariaDB YUM repository
 
 MariaDB have YUM repositories for several YUM-based Linux distributions. To easily generate the appropriate MariaDB.repo entry for your distribution, use [MariaDB online repository generator](https://downloads.mariadb.org/mariadb/repositories/).
-
+<!--more-->
 Once you have your ```MariaDB.repo``` entry, add it to a file under ```/etc/yum.repos.d/``` with following command: 
 
     vim etc/yum.repos.d/MariaDB.repo
