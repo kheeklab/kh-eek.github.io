@@ -3,6 +3,8 @@ published: true
 title: install Oracle Java JDK 8 on CentOS
 layout: post
 ---
+> Note: Java version update time to time please change the Java version to to current latest.
+
 First thing first:
 
     yum update
